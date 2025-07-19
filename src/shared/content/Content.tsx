@@ -7,9 +7,6 @@ import common from "content/common/common.json";
 import landing from "content/landing/landing-config.json";
 import about from "content/about/about-config.json";
 
-import LandingMd from "content/landing/landing.md";
-import AboutMd from "content/about/about.md";
-
 export const configs = {
     common,
     landing,
@@ -27,8 +24,8 @@ export enum MarkdownFile {
 }
 
 const Mapper = {
-    [MarkdownFile.Landing]: LandingMd,
-    [MarkdownFile.About]: AboutMd,
+    [MarkdownFile.Landing]: "/content/landing.md",
+    [MarkdownFile.About]: "/content/about.md",
 };
 
 export const useContent = (fileName: MarkdownFile) => {
