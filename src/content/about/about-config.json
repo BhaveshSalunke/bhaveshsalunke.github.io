@@ -27,11 +27,11 @@
             {
                 "id": "exp-1",
                 "company": "Massive Rocket",
-                "position": "Full Stack Developer Consultant",
+                "position": "Full Stack Developer",
                 "duration": "May 2023 - Present",
                 "description": [
                     "Contributes expertise to make businesses more customer-centric using data, beautiful experiences, and automated communications.",
-                    "Works with technologies including Braze, mParticle, Segment, Tealium, Snowflake, Tableau, Looker, Amplitude & Mixpanel."
+                    "Works with technologies including Braze, AWS, Snowflake and develop related web applications."
                 ]
             },
             {
@@ -57,20 +57,24 @@
         ],
     "skills": [
         {
-            "title": "Programming",
-            "tools": ["Kotlin", "Java", "JavaScript","Express.js", "SQL", "Shell"]
+            "title": "Languages",
+            "tools": ["TypeScript","Kotlin", "JavaScript"]
         },
         {
-            "title": "Web",
-            "tools": ["React", "Vue", "NodeJS", "HTML/CSS"]
+            "title": "Web Development",
+            "tools": ["React", "Vue.js", "Node.js", "HTML", "CSS"]
         },
         {
-            "title": "Databases",
-            "tools": ["PostgreSQL", "Snowflake", "MongoDB", "Redis", "MySQL"]
+            "title": "Cloud & Databases",
+            "tools": ["AWS", "Firebase","PostgreSQL", "Snowflake"]
         },
         {
-            "title": "OS & Tools",
-            "tools": ["MacOS", "Linux", "Git", "Agile", "MVC", "Docker", "Kubernetes"]
+            "title": "DevOps & Automation",
+            "tools": ["Docker", "Kubernetes", "Git", "n8n", "Zapier"]
+        },
+        {
+            "title": "Methodologies & Design",
+            "tools": ["Agile", "TDD", "System Design"]
         }
     ]
 }

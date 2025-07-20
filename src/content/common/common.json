@@ -9,7 +9,7 @@
     "pronunciation": "/bhah-vay-sh/",
     "audioFile": "/assets/name.mp3",
     "cssVarPrefix": "hp",
-    "email": "bhaveshsalunke14@gmail.com",
+    "email": "bhaveshsalunke@hotmail.com",
     "linkedin": "https://www.linkedin.com/in/bhaveshsalunke/",
     "github": "https://github.com/BhaveshSalunke",
     "resume": "https://bhaveshsalunke.s3.ap-south-1.amazonaws.com/BhaveshSalunkeResume.pdf",
@@ -24,7 +24,7 @@
         },
         {
             "type": "mail",
-            "link": "mailto:bhaveshsalunke14@gmail.com"
+            "link": "mailto:bhaveshsalunke@hotmail.com"
         }
     ]
 }
