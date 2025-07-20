@@ -70,7 +70,7 @@
         },
         {
             "title": "DevOps & Automation",
-            "tools": ["Docker", "Kubernetes", "Git", "n8n", "Zapier"]
+            "tools": ["Docker", "CI/CD Pipelines", "n8n", "Zapier"]
         },
         {
             "title": "Methodologies & Design",

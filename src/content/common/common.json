@@ -4,8 +4,8 @@
         "mobile": "BS",
         "desktop": "Bhavesh Salunke"
     },
-    "mainPicture": "/assets/BS.jpg",
-    "mainPictureJPG": "/assets/BS.jpg",
+    "mainPicture": "/assets/BS.png",
+    "mainPictureJPG": "/assets/BS.png",
     "pronunciation": "/bhah-vay-sh/",
     "audioFile": "/assets/name.mp3",
     "cssVarPrefix": "hp",

@@ -29,7 +29,7 @@ export const Footer: FC = () => {
                 Ask me about anything, I am happy to help. ✌️
             </Text>
             <Box pt="16">
-                <Socials delay={100} exclude={["mail"]} />
+                <Socials delay={100} />
             </Box>
             <Flex
                 pt="4"
