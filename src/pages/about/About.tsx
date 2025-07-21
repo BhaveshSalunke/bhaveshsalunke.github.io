@@ -32,17 +32,6 @@ export const About: FC = () => {
                             {configs.common.pronunciation}
                         </Text>
 
-                        <Button
-                            size="xs"
-                            aria-label="pronunciation button"
-                            as={IconButton}
-                            variant="icon"
-                            fontSize="md"
-                            icon={<VolumeIcon />}
-                            onClick={onPlay}
-                            data-aos="fade"
-                            data-aos-delay="400"
-                        />
                     </Flex>
                     <Box pt="4" data-aos="fade-up" data-aos-delay="400">
                         <Content fontSize="lg">{content.about}</Content>
