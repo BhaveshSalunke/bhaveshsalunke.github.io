@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.29a3f1c9.css",
-    "main.js": "/static/js/main.667678fb.js",
+    "main.js": "/static/js/main.aae3a4e5.js",
     "static/js/453.5d79306b.chunk.js": "/static/js/453.5d79306b.chunk.js",
     "static/js/998.0846d29b.chunk.js": "/static/js/998.0846d29b.chunk.js",
     "static/js/106.52b38b32.chunk.js": "/static/js/106.52b38b32.chunk.js",
@@ -10,11 +10,11 @@
     "static/js/149.3bf28f44.chunk.js": "/static/js/149.3bf28f44.chunk.js",
     "static/media/Monsieur-Pomme.ttf": "/static/media/Monsieur-Pomme.5860767b9cc93ae9dd18.ttf",
     "index.html": "/index.html",
-    "static/media/about.md": "/static/media/about.52cd59cbc8d1620663ec.md",
+    "static/media/about.md": "/static/media/about.ce52b291b6c7643959f3.md",
     "static/media/cursor.svg": "/static/media/cursor.0d5a46cf888a96a91160.svg",
     "static/media/landing.md": "/static/media/landing.30f21beb4df44a68ab7e.md",
     "main.29a3f1c9.css.map": "/static/css/main.29a3f1c9.css.map",
-    "main.667678fb.js.map": "/static/js/main.667678fb.js.map",
+    "main.aae3a4e5.js.map": "/static/js/main.aae3a4e5.js.map",
     "453.5d79306b.chunk.js.map": "/static/js/453.5d79306b.chunk.js.map",
     "998.0846d29b.chunk.js.map": "/static/js/998.0846d29b.chunk.js.map",
     "106.52b38b32.chunk.js.map": "/static/js/106.52b38b32.chunk.js.map",
@@ -24,6 +24,6 @@
   },
   "entrypoints": [
     "static/css/main.29a3f1c9.css",
-    "static/js/main.667678fb.js"
+    "static/js/main.aae3a4e5.js"
   ]
 }
