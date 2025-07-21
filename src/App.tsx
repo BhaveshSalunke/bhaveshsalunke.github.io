@@ -9,15 +9,13 @@ import { AboutPageId, SkillPageId } from "utils/useScroll";
 import "./App.scss";
 import "aos/dist/aos.css";
 import { Skills } from "./pages/about/skills/Skills";
+import { About } from "pages/about/About";
 
 const Navbar = lazy(() => import("shared/navbar/Navbar").then((module) => ({ default: module.Navbar })));
-const Landing = lazy(() => import("pages/landing/Landing").then((module) => ({ default: module.Landing })));
 const PageHeader = lazy(() =>
     import("shared/page-header/PageHeader").then((module) => ({ default: module.PageHeader })),
 );
 const Footer = lazy(() => import("shared/footer/Footer").then((module) => ({ default: module.Footer })));
-const About = lazy(() => import("pages/about/About").then((module) => ({ default: module.About })));
-
 const Loader: FC = () => (
     <Center w="100%" h="100%">
         <Spinner size="lg" color="primary.500" />
