@@ -6,6 +6,7 @@
     },
     "mainPicture": "/assets/BS.png",
     "mainPictureJPG": "/assets/BS.png",
+    "mainPictureMobile": "/assets/MBS.png",
     "pronunciation": "/bhah-vay-sh/",
     "audioFile": "/assets/name.mp3",
     "cssVarPrefix": "hp",

@@ -1,19 +1,19 @@
 import { FC } from "react";
-
-import { Box, Flex, Heading, Text, Image, Button, IconButton } from "@chakra-ui/react";
+import { useBreakpointValue } from "@chakra-ui/react";
+import { Box, Flex, Heading, Text, Image } from "@chakra-ui/react";
 
 import { configs, Content, MarkdownFile, useContent } from "shared/content/Content";
 import { Education } from "pages/about/education/Education";
 import { Experience } from "pages/about/experience/Experience";
-import { VolumeIcon } from "utils/Icons";
 
 export const About: FC = () => {
     const content = useContent(MarkdownFile.About);
 
-    const onPlay = () => {
-        const audio = new Audio(process.env.PUBLIC_URL + configs.common.audioFile);
-        audio.play();
-    };
+    const imageSrc = useBreakpointValue({
+        base: process.env.PUBLIC_URL + configs.common.mainPictureMobile,
+        lg: process.env.PUBLIC_URL + configs.common.mainPicture,
+    });
+
 
     return (
         <Box>
@@ -21,8 +21,15 @@ export const About: FC = () => {
                 <Box flex="0.35" data-aos="fade-up">
                     <picture>
                         <source type="image/webp" srcSet={process.env.PUBLIC_URL + configs.common.mainPicture}></source>
-                        <source type="image/jpeg" srcSet={process.env.PUBLIC_URL + configs.common.mainPictureJPG}></source>
-                        <Image borderRadius="xl" src={process.env.PUBLIC_URL + configs.common.mainPicture} w="100%" alt="profile image" />
+                        <source type="image/jpeg"
+                                srcSet={process.env.PUBLIC_URL + configs.common.mainPictureJPG}></source>
+                        <Image
+                            borderRadius="xl"
+                            src={imageSrc}
+                            alt="face-cover-image"
+                            boxSize={{ base: "120px", md: "220px", lg: "320px" }} // scale image size responsively
+                            objectFit="cover"
+                        />
                     </picture>
                 </Box>
                 <Box flex="0.85">
